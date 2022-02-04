@@ -1,0 +1,34 @@
+
+body{
+    margin: 0 !important;
+}
+
+.display{
+    margin: 10% 10% 2% 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-design{
+    border: 1px solid white;
+    padding: 10px 50px 10px 50px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: burlywood;
+    margin-top: 10px;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.link-design:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+    
+    a{
+        color: white;
+    }
+}
